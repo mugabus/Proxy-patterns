@@ -1,13 +1,25 @@
-# Sample Hardhat Project
+# 🔁 Upgradeable Smart Contract: Counter (UUPS Proxy Pattern)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project demonstrates how to build and upgrade an Ethereum smart contract using the UUPS proxy pattern with Hardhat, TypeScript, and OpenZeppelin's upgrade plugins.
 
-Try running some of the following tasks:
+## 🧱 Features
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+- ✅ Counter contract (V1) with `increment`, `decrement`, and `getCount`
+- 🚀 Upgradeable architecture using UUPS proxy
+- 🔄 Version 2 (V2) adds new or improved logic
+- 🧪 Fully tested with Hardhat and Chai
+- 📦 TypeScript support
+
+---
+
+## 🛠️ Tech Stack
+
+- [Hardhat](https://hardhat.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [OpenZeppelin Upgrades](https://docs.openzeppelin.com/upgrades-plugins/1.x/)
+- [Chai](https://www.chaijs.com/) for testing
+- [Hardhat Ignition](https://hardhat.org/hardhat-ignition) (for standard deployment modules, not used for upgradeable contracts)
+
+---
+
+
